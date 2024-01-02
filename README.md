@@ -17,6 +17,8 @@ uvicorn main:app --reload
 ## Swagger Documentation
 
 FastAPI uses Swagger UI to create an interactive documentation interface. To access the Swagger documentation, run your FastAPI application and navigate to
+
+Swagger UI allows developers to explore and test API endpoints interactively. It displays detailed information about each endpoint, including parameters, request/response models, and example requests.
 ```
 http://127.0.0.1:8000/docs
 http://127.0.0.1:8000/redoc
