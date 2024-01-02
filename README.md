@@ -13,3 +13,11 @@ Now, let’s run our FastAPI application using Uvicorn:
 ```
 uvicorn main:app --reload
 ```
+
+## Swagger Documentation
+
+FastAPI uses Swagger UI to create an interactive documentation interface. To access the Swagger documentation, run your FastAPI application and navigate to
+```
+http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/redoc
+```
